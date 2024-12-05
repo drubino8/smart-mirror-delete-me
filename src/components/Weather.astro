@@ -36,7 +36,7 @@
     
     // Set DOM Elements
     city.textContent = data.name;
-    temp.textContent = `${Math.round(data.main.temp)} °F`;
+    temp.textContent = `${Math.round(data.main.temp)}°F`;
     icon.setAttribute('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
   }
   

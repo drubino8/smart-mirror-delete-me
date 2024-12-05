@@ -5,6 +5,11 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0; /* Ensure no default margin */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
 }
 
 .card {
@@ -47,7 +52,9 @@ img {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3rem;
     color: white;
     text-align: center;
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
 }
